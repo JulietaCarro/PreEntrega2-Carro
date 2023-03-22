@@ -11,7 +11,7 @@ h1{
     font-weight: bold;
     color: rgb(255, 0, 200);
     margin: center;
-    padding: 60px 0px 1px 0px;
+    padding-bottom: 2px;
 
 }
 h2{
@@ -24,7 +24,7 @@ h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     text-align: center;
-    margin: 30px; 
+    margin: 15px; 
 }
 
 header h3{
@@ -109,11 +109,8 @@ p{
 
 }
 
-.logo{
-    display: flex;
-    margin-left: 1000px;
-    margin-top: 0px;
-    margin bottom: 80px;
+.logo-imagen{
+    transform: translate(1000px,-117px);
 }
 
 
@@ -126,15 +123,6 @@ a:hover{
 
 a:active{
     color: black;
-}
-
-/*Selector ID*/
-#estilos-footer{
-background-color: rgb(219, 112, 147);
-width: 1300px;
-height: 45px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 20px;
 }
 
 
@@ -156,6 +144,7 @@ font-size: 20px;
     border: 2px solid rgb(223, 153, 213);
     padding: 30px 20px 20px 10px;
 }
+
 
 /*Clases*/
 /*Grid*/
@@ -235,3 +224,11 @@ border: 2px solid rgb(238, 130, 238);
 }
 
 
+/*Selector ID*/
+#estilos-footer{
+    background-color: rgb(219, 112, 147);
+    width: 1300px;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    }
